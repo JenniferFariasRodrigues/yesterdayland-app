@@ -8,9 +8,9 @@ App Challenge using .Net,Angular,SQLServer, Swagger features and frameworks.
 
 ### Description 
 ---
-### ---------------------------------------------------------------------------|
-###         Full Stack Software Engineer Technical Assignment
-### ---------------------------------------------------------------------------|
+### --------------------------------------------------------------------------------------------------------------------
+# Full Stack Software Engineer Technical Assignment
+### --------------------------------------------------------------------------------------------------------------------
 
 # Things we look for in this test.:
 We would like the candidate to show us their skills in Design/Architecture, ability to build testable and maintainable
@@ -22,32 +22,32 @@ system to sell their tickets all around the world. With that in mind, you should
 Angular SPA and .NET API using the domain information and of course prevent the most
 commons issues like concurrence and optimization.
 
-# Domain
+# Domain:
 Customer has Name, Email, Birth Date.
 Customer can have multiple Tickets.
 Events has Name, Date, Type.
 Events can have multiple Tickets.
 Tickets has Code, CreateDate.
 A Ticket has only one customer and one event.
-# Application
+# Application:
 The application should at least cover the following flows.
 • Return the list of events available.
 • Customer can buy a ticket for an event.
 • Customer can see his tickets.
 Additionally using swagger, the API should make available all the necessary endpoints.
-# Persistence
+# Persistence:
 We suggest you use any in memory DB. MongoDB InMemory, SQLite, etc
-# Source Code
+# Source Code:
 We suggest using the GitHub or Bitbucket as your GIT repository.
 Please Create a private repository and add the email address sent to you.
 We prefer to see that the candidate can use source control systems, so please make sure you’re not pushing everything in a
 single commit but having small atomic steps.
-# Tools and libraries
+# Tools and libraries:
 You are free to use any additional third-party libraries and frameworks.
-# Additional information
+# Additional information:
 The authentication/authorization is outside of scope. Feel free to improve the
 application as you see fit.
-# Final Notes
+# Final Notes:
 Simple is better than complex - complex is better than complicated. Also, readability counts. If the
 implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
