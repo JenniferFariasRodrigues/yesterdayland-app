@@ -1,6 +1,6 @@
 <p align="center">
- <img src="https://media.licdn.com/dms/image/C5612AQH-LQYdtYahzg/article-cover_image-shrink_600_2000/0/1626661672527?e=2147483647&v=beta&t=YgZLzjK2VoKCQuJtBn_8gk8yNf9H1P3yvmao1ybol6k" height="250" width="500">  </p>
- <h1 align="center">C language code</h1>
+ <img src="https://media.licdn.com/dms/image/C5612AQH-LQYdtYahzg/article-cover_image-shrink_600_2000/0/1626661672527?e=2147483647&v=beta&t=YgZLzjK2VoKCQuJtBn_8gk8yNf9H1P3yvmao1ybol6k" height="250" width="700">  </p>
+ <h1 align="center">.Net,Angular, Swagger API</h1>
 <p align="center">
 </p>
 App Challenge using .Net,Angular,SQLServer, Swagger features and frameworks.
