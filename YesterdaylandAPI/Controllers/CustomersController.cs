@@ -42,4 +42,10 @@ public class CustomersController : ControllerBase
     {
         return await _context.Tickets.Where(t => t.CustomerId == customerId).ToListAsync();
     }
+     // GET: api/customer
+        [HttpGet]
+        public ActionResult<IEnumerable<Customer>> GetCustomers()
+        {
+            return _context.Customers.ToList();
+        }
 }

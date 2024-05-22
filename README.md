@@ -70,7 +70,10 @@ On the IDE Enviromental choose the open project.
 # Choose xxx folder in IDE and run the project
 
 # Put the line on the terminal
-$
+$ dotnet build
+$ dotnet ef migrations add InitialCreate
+$ dotnet ef database update
+$ dotnet run
 
 # Run code
 $ 
