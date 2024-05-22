@@ -6,9 +6,9 @@ namespace YesterdaylandAPI.Data
 
     public class YesterdaylandContext : DbContext
 {
-    public DbSet<Customer> Customers { get; set; }
-    public DbSet<Event> Events { get; set; }
-    public DbSet<Ticket> Tickets { get; set; }
+    public DbSet<Customer> Customers { get; set; } = default!;//to not warnings
+    public DbSet<Event> Events { get; set; } = default!;
+    public DbSet<Ticket> Tickets { get; set; } = default!;
 
     public YesterdaylandContext(DbContextOptions<YesterdaylandContext> options) : base(options) { }
 }

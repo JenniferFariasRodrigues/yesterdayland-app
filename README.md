@@ -67,10 +67,14 @@ $ git clone https://github.com/JenniferFariasRodrigues/yesterdayland-app.git
 # Access using IDE ou through the code
 On the IDE Enviromental choose the open project.
 
+## Backend access:
 # Choose xxx folder in IDE and run the project
 
 # Put the line on the terminal
-$
+$ dotnet build
+$ dotnet ef migrations add InitialCreate
+$ dotnet ef database update
+$ dotnet run
 
 # Run code
 $ 
