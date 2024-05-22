@@ -12,7 +12,7 @@ App Challenge using .Net,Angular,SQLServer, Swagger features and frameworks.
 # Full Stack Software Engineer Technical Assignment
 ### ---------------------------------------------------------------------------------------------------------------------------------
 
-## Things we look for in this test.:
+## Things we look for in this test:
 We would like the candidate to show us their skills in Design/Architecture, ability to build testable and maintainable
 software using industry best practices.
 
