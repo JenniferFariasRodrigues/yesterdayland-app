@@ -1,0 +1,7 @@
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.csproj.AssemblyReference.cache
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.GeneratedMSBuildEditorConfig.editorconfig
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.AssemblyInfoInputs.cache
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.AssemblyInfo.cs
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.csproj.CoreCompileInputs.cache
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.MvcApplicationPartsAssemblyInfo.cs
+/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/Debug/netcoreapp3.1/YesterdaylandAPI.MvcApplicationPartsAssemblyInfo.cache
