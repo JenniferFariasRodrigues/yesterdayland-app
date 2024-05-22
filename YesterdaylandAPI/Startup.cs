@@ -1,16 +1,28 @@
 using Microsoft.OpenApi.Models;
 using YesterdaylandAPI.Models;
+using Microsoft.EntityFrameworkCore;
+using YesterdaylandAPI.Data;
+
 
 namespace Yesterdayland
 {
     
     public class Startup
 {
+    public IConfiguration Configuration { get; }
+
+    public Startup(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddDbContext<YesterdaylandContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
         services.AddControllers();
+        //Swagger configuration
         services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "Yesterdayland API", Version = "v1" });

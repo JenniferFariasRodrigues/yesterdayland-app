@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using YesterdaylandAPI.Data;
 using YesterdaylandAPI.Models;
 
 [ApiController]
