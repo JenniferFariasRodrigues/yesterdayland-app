@@ -1,4 +1,4 @@
-// Just to support Microsoft.Data.Sql
+// Just to support Microsoft.Data.SqlClient
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;

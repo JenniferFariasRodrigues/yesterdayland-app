@@ -38,6 +38,13 @@ namespace Yesterdayland
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Yesterdayland API v1"));
         }
 
+
+    // Seed the database
+        using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+        {
+            var context = serviceScope.ServiceProvider.GetRequiredService<YesterdaylandContext>();
+            DataSeeder.Seed(context);
+        }
         app.UseRouting();
         app.UseEndpoints(endpoints =>
         {
