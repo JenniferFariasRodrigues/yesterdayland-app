@@ -36,7 +36,12 @@ namespace Yesterdayland
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Yesterdayland API v1"));
-            }
+            } else
+                {
+                    app.UseExceptionHandler("/Home/Error");
+                    app.UseHsts();
+                }
+
 
 
             // Seed the database
@@ -46,7 +51,7 @@ namespace Yesterdayland
             //     DataSeeder.Seed(context);
             // }
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             app.UseRouting();
 
             app.UseAuthorization();

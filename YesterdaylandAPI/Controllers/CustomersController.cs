@@ -21,6 +21,7 @@ namespace YesterdaylandAPI.Controllers
         {
             return _context.Customers.ToList();
         }
+        
         [HttpPost("{customerId}/tickets")]
         public async Task<ActionResult<Ticket>> BuyTicket(int customerId, int eventId)
         {

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/YesterdaylandAPI.csproj": {}
+    "C:\\DotNet_angular_swagger_challenge\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.csproj": {}
   },
   "projects": {
-    "/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/YesterdaylandAPI.csproj": {
+    "C:\\DotNet_angular_swagger_challenge\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/YesterdaylandAPI.csproj",
+        "projectUniqueName": "C:\\DotNet_angular_swagger_challenge\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.csproj",
         "projectName": "YesterdaylandAPI",
-        "projectPath": "/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/YesterdaylandAPI.csproj",
-        "packagesPath": "/home/jennifer/.nuget/packages/",
-        "outputPath": "/home/jennifer/Documentos/yesterdayland-app/yesterdayland-app/YesterdaylandAPI/obj/",
+        "projectPath": "C:\\DotNet_angular_swagger_challenge\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.csproj",
+        "packagesPath": "C:\\Users\\jenni\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet_angular_swagger_challenge\\yesterdayland-app\\YesterdaylandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jennifer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jenni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +58,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -65,16 +67,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.129/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     }
