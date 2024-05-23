@@ -1,3 +1,4 @@
+using System.Reflection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using YesterdaylandAPI.Data;
@@ -15,11 +16,20 @@ namespace YesterdaylandAPI.Controllers
         {
             _context = context;
         }
+
+        // async MethodSemanticsAttributes-NOT WORKING!
         // GET: api/customer
         [HttpGet]
         public ActionResult<IEnumerable<Customer>> GetCustomers()
+    
         {
             return _context.Customers.ToList();
+        }   
+
+        [HttpGet("{customerId}/tickets")]
+        public async Task<ActionResult<IEnumerable<Ticket>>> GetTickets(int customerId)
+        {
+            return await _context.Tickets.Where(t => t.CustomerId == customerId).ToListAsync();
         }
         
         [HttpPost("{customerId}/tickets")]
@@ -43,13 +53,7 @@ namespace YesterdaylandAPI.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetTickets), new { customerId }, ticket);
-        }
-
-        [HttpGet("{customerId}/tickets")]
-        public async Task<ActionResult<IEnumerable<Ticket>>> GetTickets(int customerId)
-        {
-            return await _context.Tickets.Where(t => t.CustomerId == customerId).ToListAsync();
-        }
+        }       
 
     }
 }
