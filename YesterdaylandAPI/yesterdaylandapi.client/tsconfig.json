@@ -3,7 +3,8 @@
   "compileOnSave": false,
   "baseUrl": "./src",
   "paths": {
-    "@models/*": [ "models/*" ]
+    "@models/*": [ "models/*" ],
+    "@angular/*": [ "node_modules/@angular/*" ]
   },
 
   "compilerOptions": {
