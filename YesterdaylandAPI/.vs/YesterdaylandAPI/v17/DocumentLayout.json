@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\yesterdayland-app\\YesterdaylandAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.client\\src\\app\\services\\apiservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|solutionrelative:yesterdaylandapi.client\\src\\app\\services\\apiservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.client\\src\\models\\customer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|solutionrelative:yesterdaylandapi.client\\src\\models\\customer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.client\\src\\app\\services\\api.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|solutionrelative:yesterdaylandapi.client\\src\\app\\services\\api.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|solutionrelative:yesterdaylandapi.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.client\\src\\app\\services\\api.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B4355DAE-ADF2-4FE1-ADCE-E5D7E7A0B36B}|yesterdaylandapi.client\\yesterdaylandapi.client.esproj|solutionrelative:yesterdaylandapi.client\\src\\app\\services\\api.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\yesterdaylandapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\yesterdaylandapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\model\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\yesterdaylandapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\yesterdaylandapi.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|solutionrelative:yesterdaylandapi.server\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3133F08C-6F25-4FEA-BDD6-7DE1551AA573}|YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj|c:\\yesterdayland-app\\yesterdaylandapi\\yesterdaylandapi.server\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,49 +86,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.ts",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\app\\services\\ApiService.ts",
+              "RelativeDocumentMoniker": "yesterdaylandapi.client\\src\\app\\services\\ApiService.ts",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\app\\services\\ApiService.ts",
+              "RelativeToolTip": "yesterdaylandapi.client\\src\\app\\services\\ApiService.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-26T08:50:21.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.ts",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\models\\Customer.ts",
+              "RelativeDocumentMoniker": "yesterdaylandapi.client\\src\\models\\Customer.ts",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\models\\Customer.ts",
+              "RelativeToolTip": "yesterdaylandapi.client\\src\\models\\Customer.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-26T08:46:41.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "api.service.spec.ts",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\app\\services\\api.service.spec.ts",
+              "RelativeDocumentMoniker": "yesterdaylandapi.client\\src\\app\\services\\api.service.spec.ts",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\app\\services\\api.service.spec.ts",
+              "RelativeToolTip": "yesterdaylandapi.client\\src\\app\\services\\api.service.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-26T08:37:20.746Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "api.service.ts",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\app\\services\\api.service.ts",
+              "RelativeDocumentMoniker": "yesterdaylandapi.client\\src\\app\\services\\api.service.ts",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\src\\app\\services\\api.service.ts",
+              "RelativeToolTip": "yesterdaylandapi.client\\src\\app\\services\\api.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-26T08:41:35.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\tsconfig.json",
+              "RelativeDocumentMoniker": "yesterdaylandapi.client\\tsconfig.json",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\yesterdaylandapi.client\\tsconfig.json",
+              "RelativeToolTip": "yesterdaylandapi.client\\tsconfig.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T08:39:23.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\WeatherForecast.cs",
               "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\WeatherForecast.cs",
               "RelativeToolTip": "YesterdaylandAPI.Server\\WeatherForecast.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T08:10:32.131Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
-              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
-              "RelativeToolTip": "YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T07:42:26.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "YesterdaylandAPI.Server.csproj",
-              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
-              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
-              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
-              "RelativeToolTip": "YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-26T06:58:55.269Z"
             },
             {
               "$type": "Document",
@@ -114,14 +178,66 @@
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Program.cs",
               "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Program.cs",
               "RelativeToolTip": "YesterdaylandAPI.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T06:07:53.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "YesterdaylandAPI.Server.csproj",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
+              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
+              "RelativeToolTip": "YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-26T06:58:55.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\appsettings.Development.json",
+              "RelativeToolTip": "YesterdaylandAPI.Server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T08:18:22.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "YesterdaylandAPI.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T08:18:58.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\Ticket.cs",
+              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Model\\Ticket.cs",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\Ticket.cs",
+              "RelativeToolTip": "YesterdaylandAPI.Server\\Model\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA+wAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T05:56:59.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Controllers\\TicketsController.cs",
@@ -133,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Controllers\\EventsController.cs",
@@ -145,20 +261,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "YesterdaylandAPI.Server\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
+              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
+              "RelativeToolTip": "YesterdaylandAPI.Server\\Model\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T06:31:17.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T07:42:26.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\Customer.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Model\\Customer.cs",
@@ -170,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Controllers\\CustomersController.cs",
@@ -182,30 +297,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "YesterdaylandAPI.Server",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
               "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
               "RelativeToolTip": "YesterdaylandAPI.Server\\YesterdaylandAPI.Server.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-26T06:16:18.272Z"
+              "WhenOpened": "2024-05-26T06:16:18.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\Ticket.cs",
-              "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Model\\Ticket.cs",
-              "ToolTip": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\Ticket.cs",
-              "RelativeToolTip": "YesterdaylandAPI.Server\\Model\\Ticket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T05:56:59.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Model\\Event.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Model\\Event.cs",
@@ -217,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "YesterdaylandAPI.Server\\Data\\AppDbContext.cs",
