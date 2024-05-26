@@ -43,39 +43,7 @@ namespace YesterdaylandAPI.Server.Controllers
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetCustomer), new { id = customer.Id }, customer);
         }
-        // GET: api/customers
-        //[HttpGet]
-        //public IActionResult GetCustomers()
-        //{
-        //    var customers = _context.Customers.ToList();
-        //    return Ok(customers);
-        //}
-
-        //// GET: api/customers/{id}
-        //[HttpGet("{id}")]
-        //public IActionResult GetCustomer(int id)
-        //{
-        //    var customer = _context.Customers.Find(id);
-        //    if (customer == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(customer);
-        //}
-
-        //// POST: api/customers
-        //[HttpPost]
-        //public IActionResult CreateCustomer([FromBody] Customer customer)
-        //{
-        //    if (customer == null)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    _context.Customers.Add(customer);
-        //    _context.SaveChanges();
-        //    return CreatedAtAction(nameof(GetCustomer), new { id = customer.Id }, customer);
-        //}
+      
 
         //// PUT: api/customers/{id}
         //[HttpPut("{id}")]
