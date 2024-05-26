@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-    
+using Microsoft.OpenApi.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +14,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//builder.Services.AddSwaggerGen();
+// Swagger configuration
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "YesterdaylandAPI", Version = "v1" });
+});
 
+// Configure to use different ports
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(7020, listenOptions => listenOptions.UseHttps());
+    options.ListenLocalhost(5198);
+});
 var app = builder.Build();
 
 app.UseDefaultFiles();
@@ -31,7 +43,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "YesterdaylandAPI v1");
-        c.RoutePrefix = string.Empty; // Para que o Swagger esteja disponível na raiz da aplicação
+        c.RoutePrefix = string.Empty; // Serve Swagger UI at the app's root
     });
 }
 
