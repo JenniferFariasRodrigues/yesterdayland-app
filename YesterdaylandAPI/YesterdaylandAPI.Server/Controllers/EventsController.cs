@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace YesterdaylandAPI.Server.Controllers
 {
+    
+    [ApiController]
+    [Route("api/[controller]")]
     public class EventsController : ControllerBase
     {
         //For the constructor

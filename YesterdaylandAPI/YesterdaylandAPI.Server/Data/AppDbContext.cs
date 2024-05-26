@@ -13,6 +13,7 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Customer>()?
             .HasMany(c => c.Tickets)
             .WithOne(t => t.Customer)

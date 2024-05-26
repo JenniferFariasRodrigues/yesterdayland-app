@@ -22,11 +22,11 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Configure to use different ports
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.ListenLocalhost(7020, listenOptions => listenOptions.UseHttps());
-    options.ListenLocalhost(5198);
-});
+//builder.WebHost.ConfigureKestrel(options =>
+//{
+//    options.ListenLocalhost(7020, listenOptions => listenOptions.UseHttps());
+//    options.ListenLocalhost(5198);
+//});
 var app = builder.Build();
 
 app.UseDefaultFiles();

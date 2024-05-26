@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace YesterdaylandAPI.Server.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class TicketsController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -33,7 +35,7 @@ namespace YesterdaylandAPI.Server.Controllers
         [HttpPost]
         public async Task<ActionResult<Ticket>> PostTicket(Ticket ticket)
         {
-            _context.Tickets.Add(ticket);
+            _context.Tickets?.Add(ticket);
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetTicket), new { id = ticket.Id }, ticket);
         }

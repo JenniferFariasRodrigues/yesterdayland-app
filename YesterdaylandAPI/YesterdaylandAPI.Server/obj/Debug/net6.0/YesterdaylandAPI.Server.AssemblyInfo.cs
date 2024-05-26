@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a258b1be-71de-4b83-a699-63cee03157a6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("YesterdaylandAPI.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e79dfdd253c9eed741cf4a50f1e761a19ca2e6c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d72176e53f60f774655c7feb37ea615d1f3082")]
 [assembly: System.Reflection.AssemblyProductAttribute("YesterdaylandAPI.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YesterdaylandAPI.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
