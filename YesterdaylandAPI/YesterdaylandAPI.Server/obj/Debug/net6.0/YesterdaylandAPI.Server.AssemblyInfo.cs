@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YesterdaylandAPI.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88165f77dad6d6457ccd0ba564ff1e3f7da85675")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16cfe2ba2148d3197d44044f5b09693fcd9bf213")]
 [assembly: System.Reflection.AssemblyProductAttribute("YesterdaylandAPI.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YesterdaylandAPI.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
