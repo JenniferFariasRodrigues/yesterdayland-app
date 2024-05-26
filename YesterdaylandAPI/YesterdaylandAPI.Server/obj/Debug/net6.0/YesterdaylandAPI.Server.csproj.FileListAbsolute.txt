@@ -1,0 +1,9 @@
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.csproj.AssemblyReference.cache
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\spa.proxy.json
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.AssemblyInfoInputs.cache
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.AssemblyInfo.cs
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.csproj.CoreCompileInputs.cache
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\yesterdayland-app\YesterdaylandAPI\YesterdaylandAPI.Server\obj\Debug\net6.0\YesterdaylandAPI.Server.sourcelink.json
