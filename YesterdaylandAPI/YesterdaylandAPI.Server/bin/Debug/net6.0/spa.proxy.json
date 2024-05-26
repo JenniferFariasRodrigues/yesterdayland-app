@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\yesterdayland-app\\YesterdaylandAPI\\YesterdaylandAPI.Server\\..\\yesterdaylandapi.client",
+"MaxTimeoutInSeconds": "120"
+}
+}
