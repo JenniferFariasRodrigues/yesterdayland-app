@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { EventListComponent } from './components/event-list/event-list.component';
 import { TicketPurchaseComponent } from './components/ticket-purchase/ticket-purchase.component';
 import { CustomerTicketsComponent } from './components/customer-tickets/customer-tickets.component';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { ModalModule } from 'ngx-bootstrap/modal';
+// import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+// import { ModalModule } from 'ngx-bootstrap/modal';
 import { FormsModule } from '@angular/forms';
 import { CustomerListComponent } from './components/customer-list/customer-list.component';
 import { CustomerService } from './services/customer.service';
 import { EventService } from './services/event.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 
 @NgModule({
   declarations: [
@@ -20,15 +22,16 @@ import { EventService } from './services/event.service';
     TicketPurchaseComponent,
     CustomerTicketsComponent,
     EventListComponent,
-    CustomerListComponent
+    CustomerListComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    BsDropdownModule.forRoot(),
-    ModalModule.forRoot()
+    // BsDropdownModule.forRoot(),
+    // ModalModule.forRoot()
   ],
   providers: [HttpClientModule, CustomerService],
   bootstrap: [AppComponent]

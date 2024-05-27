@@ -1,0 +1,43 @@
+<div class="container">
+  <!-- Select Customer -->
+  <div class="row" *ngIf="showCustomerList">
+    <div class="col">
+      <h2>Select Customer</h2>
+      <select [(ngModel)]="selectedCustomer">
+        <option *ngFor="let customer of customers" [ngValue]="customer">{{ customer.name }}</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Select Event -->
+  <div class="row mt-3" *ngIf="showEventDetails">
+    <div class="col">
+      <h2>Select Event</h2>
+      <select [(ngModel)]="selectedEvent">
+        <option *ngFor="let event of events" [ngValue]="event">{{ event.name }}</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Purchase Ticket Button -->
+  <div class="row mt-3">
+    <div class="col">
+      <button (click)="purchaseTicket()">Purchase Ticket</button>
+    </div>
+  </div>
+
+  <!-- Event List -->
+  <div class="row mt-5">
+    <div class="col">
+      <h2>Event List</h2>
+      <ul>
+        <li *ngFor="let event of events">
+          <span>{{ event.name }}</span> | <span>{{ event.date }}</span> | <span>{{ event.type }}</span>
+        </li>
+      </ul>
+      <div *ngIf="events.length === 0">
+        <p>No events available</p>
+      </div>
+    </div>
+  </div>
+</div>

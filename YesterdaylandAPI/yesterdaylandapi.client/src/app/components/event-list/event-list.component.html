@@ -1,19 +1,11 @@
-<div class="container mt-5">
-  <h2>Events</h2>
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Date</th>
-        <th>Type</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let event of events">
-        <td>{{ event.name }}</td>
-        <td>{{ event.date | date }}</td>
-        <td>{{ event.type }}</td>
-      </tr>
-    </tbody>
-  </table>
+<div *ngIf="events.length > 0">
+  <h2>Event List</h2>
+  <ul>
+    <li *ngFor="let event of events">
+      <span>{{ event.name }}</span> | <span>{{ event.date }}</span> | <span>{{ event.type }}</span>
+    </li>
+  </ul>
+</div>
+<div *ngIf="events.length === 0">
+  <p>No events available</p>
 </div>
