@@ -5,8 +5,8 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@models/*": ["models/*"],
-      "@angular/*": ["node_modules/@angular/*"]
+      "@models/*": ["app/models/*"],
+      "@angular/*": ["../node_modules/@angular/*"]
     },
     "outDir": "./dist/out-tsc",
     "strict": true,

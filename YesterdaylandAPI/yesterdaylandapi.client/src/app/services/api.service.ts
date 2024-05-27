@@ -9,7 +9,7 @@ import { Ticket } from '../models/ticket.model';
 })
 export class ApiService {
   //http calls to api
-  private apiUrl = 'https://localhost:5001/api';
+  private apiUrl = 'https://localhost:3000/api';
 
   constructor(private http: HttpClient) { }
 
