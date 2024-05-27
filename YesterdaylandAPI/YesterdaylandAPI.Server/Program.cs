@@ -40,7 +40,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// Add CORS policy (optional, adjust as needed)
+// Add CORS policy (optional, adjust as needed). Just to lintening the data during operation
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
@@ -80,8 +80,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 // Apply the CORS policy
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-app.UseCors("AllowAll"); 
+
+//app.UseCors("AllowAll"); 
 
 app.UseAuthorization();
 
