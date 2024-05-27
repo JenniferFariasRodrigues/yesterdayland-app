@@ -10,13 +10,17 @@ import { CustomerTicketsComponent } from './components/customer-tickets/customer
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { FormsModule } from '@angular/forms';
+import { CustomerListComponent } from './components/customer-list/customer-list.component';
+import { CustomerService } from './services/customer.service';
+import { EventService } from './services/event.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     TicketPurchaseComponent,
     CustomerTicketsComponent,
-    EventListComponent
+    EventListComponent,
+    CustomerListComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,7 @@ import { FormsModule } from '@angular/forms';
     BsDropdownModule.forRoot(),
     ModalModule.forRoot()
   ],
-  providers: [],
+  providers: [HttpClientModule, CustomerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

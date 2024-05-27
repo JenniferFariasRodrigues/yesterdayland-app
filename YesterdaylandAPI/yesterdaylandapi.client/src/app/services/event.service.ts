@@ -1,9 +1,33 @@
 import { Injectable } from '@angular/core';
-
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Event } from '../models/event.model';
 @Injectable({
   providedIn: 'root'
 })
 export class EventService {
 
-  constructor() { }
+  private apiUrl = 'https://localhost:5001/api/events';  // URL da sua API backend
+
+  constructor(private http: HttpClient) { }
+
+  getEvents(): Observable<Event[]> {
+    return this.http.get<Event[]>(this.apiUrl);
+  }
+
+  getEventById(id: number): Observable<Event> {
+    return this.http.get<Event>(`${this.apiUrl}/${id}`);
+  }
+
+  createEvent(event: Event): Observable<Event> {
+    return this.http.post<Event>(this.apiUrl, event);
+  }
+
+  updateEvent(id: number, event: Event): Observable<Event> {
+    return this.http.put<Event>(`${this.apiUrl}/${id}`, event);
+  }
+
+  deleteEvent(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/${id}`);
+  }
 }
