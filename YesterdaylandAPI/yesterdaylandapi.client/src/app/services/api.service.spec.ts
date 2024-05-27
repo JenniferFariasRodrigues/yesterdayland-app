@@ -7,7 +7,9 @@ describe('ApiService', () => {
   let service: ApiService;
   let httpMock: HttpTestingController;
 
+  
   beforeEach(() => {
+    //take the data to use
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
       providers: [ApiService]
@@ -19,13 +21,14 @@ describe('ApiService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
-
+  //it fetch some data
   it('should fetch customers', () => {
     const dummyCustomers = [
-      { id: 1, name: 'John Doe', email: 'john@example.com' },
-      { id: 2, name: 'Jane Doe', email: 'jane@example.com' }
+      { id: 1, name: 'Jennifer Farias', email: 'jenniferFarias@example.com' },
+      { id: 2, name: 'Naomy Dutra', email: 'naomyDutra@example.com' }
     ];
 
+    //take the data and subscribe it
     service.getCustomers().subscribe(customers => {
       expect(customers.length).toBe(2);
       expect(customers).toEqual(dummyCustomers);
