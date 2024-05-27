@@ -74,5 +74,5 @@ namespace YesterdaylandAPI.Server.Controllers
 
             return CreatedAtAction(nameof(GetTicket), new { id = ticket.Id }, ticketDto);
         }
-    } 
+    }
 }

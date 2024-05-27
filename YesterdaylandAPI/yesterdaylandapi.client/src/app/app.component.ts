@@ -1,37 +1,54 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  public forecasts: WeatherForecast[] = [];
+  title = 'Yesterdayland';
+  customers: any;
+  events: any;
+  weather: any;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.getForecasts();
+    this.getCustomers();
+    this.getEvents();
   }
 
-  getForecasts() {
-    this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
-      (result) => {
-        this.forecasts = result;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
+  getCustomers() {
+    this.http.get('/api/customers')
+      .pipe(
+        catchError(this.handleError)
+      )
+      .subscribe(data => {
+        this.customers = data;
+      }, error => {
+        console.error('There was an error!', error);
+      });
   }
 
-  title = 'yesterdaylandapi.client';
+  getEvents() {
+    this.http.get('/api/events')
+      .pipe(
+        catchError(this.handleError)
+      )
+      .subscribe(data => {
+        this.events = data;
+      }, error => {
+        console.error('There was an error!', error);
+      });
+  }
+
+
+  private handleError(error: HttpErrorResponse) {
+    console.error('An error occurred:', error.message);
+    return new Observable<never>();
+  }
 }
+

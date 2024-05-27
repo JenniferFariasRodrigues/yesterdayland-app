@@ -14,7 +14,7 @@ export class CustomerTicketsComponent implements OnInit {
   selectedCustomer: Customer | undefined;
   tickets: Ticket[] = [];
 
-  constructor(private apiService: ApiService) {}
+  constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
     this.apiService.getCustomers().subscribe((customers: Customer[]) => {

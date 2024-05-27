@@ -21,6 +21,7 @@
       this.apiService.getCustomers().subscribe((customers: Customer[]) => {
         this.customers = customers;
       });
+      //needs to fix to communiction
       // this.apiService.getEvents().subscribe((events: Event[]) => {
       //   this.events = events;
       // });
@@ -33,7 +34,7 @@
           code: 'TICKET-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
           createDate: new Date(),
           customerId: this.selectedCustomer.id,
-          eventId: this.selectedEvent.type.trim.length // Verifique se selectedEvent tem um campo id
+          eventId: this.selectedEvent.type.trim.length // Check if selectedEvent has id
         };
 
         this.apiService.createTicket(ticket).subscribe();
