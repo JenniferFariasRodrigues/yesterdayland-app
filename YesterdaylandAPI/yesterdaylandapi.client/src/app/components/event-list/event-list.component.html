@@ -1,1 +1,19 @@
-<p>event-list works!</p>
+<div class="container mt-5">
+  <h2>Events</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let event of events">
+        <td>{{ event.name }}</td>
+        <td>{{ event.date | date }}</td>
+        <td>{{ event.type }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

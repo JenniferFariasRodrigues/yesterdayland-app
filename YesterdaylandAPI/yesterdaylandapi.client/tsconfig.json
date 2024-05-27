@@ -1,13 +1,13 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+/*putting the base url n compile options to solve a bug.*/
 {
   "compileOnSave": false,
-  "baseUrl": "./src",
-  "paths": {
-    "@models/*": [ "models/*" ],
-    "@angular/*": [ "node_modules/@angular/*" ]
-  },
-
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@models/*": ["models/*"],
+      "@angular/*": ["node_modules/@angular/*"]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -36,3 +36,45 @@
     "strictTemplates": true
   }
 }
+
+
+
+// old code
+// /* To learn more about this file see: https://angular.io/config/tsconfig. */
+// {
+//   "compileOnSave": false,
+//   "baseUrl": "./src",
+//   "paths": {
+//     "@models/*": [ "models/*" ],
+//     "@angular/*": [ "node_modules/@angular/*" ]
+//   },
+
+//   "compilerOptions": {
+//     "outDir": "./dist/out-tsc",
+//     "strict": true,
+//     "noImplicitOverride": true,
+//     "noPropertyAccessFromIndexSignature": true,
+//     "noImplicitReturns": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "sourceMap": true,
+//     "declaration": false,
+//     "experimentalDecorators": true,
+//     "moduleResolution": "bundler",
+//     "importHelpers": true,
+//     "target": "ES2022",
+//     "module": "ES2022",
+//     "useDefineForClassFields": false,
+//     "lib": [
+//       "ES2022",
+//       "dom"
+//     ]
+//   },
+//   "angularCompilerOptions": {
+//     "enableI18nLegacyMessageIdFormat": false,
+//     "strictInjectionParameters": true,
+//     "strictInputAccessModifiers": true,
+//     "strictTemplates": true
+//   }
+// }

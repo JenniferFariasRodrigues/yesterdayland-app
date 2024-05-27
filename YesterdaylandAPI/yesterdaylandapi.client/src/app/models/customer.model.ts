@@ -1,4 +1,4 @@
-import { Ticket } from "./Ticket";
+import { Ticket } from "./ticket.model";
 
 export interface Customer {
   id: number;
