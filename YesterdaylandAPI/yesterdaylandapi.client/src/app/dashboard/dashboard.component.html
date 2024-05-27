@@ -10,7 +10,7 @@
   </div>
 
   <!-- Select Event -->
-  <div class="row mt-3" *ngIf="showEventDetails">
+  <div class="row mt-3" *ngIf="showEventDetails && clickButton">
     <div class="col">
       <h2>Select Event</h2>
       <select [(ngModel)]="selectedEvent">

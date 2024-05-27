@@ -15,6 +15,7 @@ export class DashboardComponent {
   events: any[] = []; // Inicializando events como uma array vazia
   showCustomerList: boolean = false;
   showEventDetails: boolean = false;
+  clickButton = false;
 
   constructor(private apiService: ApiService) { }
 
@@ -45,12 +46,13 @@ export class DashboardComponent {
 
   purchaseTicket(): void {
     if (this.selectedCustomer && this.selectedEvent) {
+      this.clickButton= true;
       const ticket: Ticket = {
         id: 0,
         code: 'TICKET-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
         createDate: new Date(),
         customerId: this.selectedCustomer.id,
-        eventId: this.selectedEvent.id // Certifique-se de substituir 'id' pelo campo correto do evento, se for diferente
+        eventId: this.selectedEvent.id
       };
     }
   }

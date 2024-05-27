@@ -7,7 +7,7 @@ import { Event } from '../models/event.model';
 })
 export class EventService {
 
-  private apiUrl = 'https://localhost:5001/api/events';  // URL da sua API backend
+  private apiUrl = 'https://localhost:5001/api/events';  // backend url
 
   constructor(private http: HttpClient) { }
 

@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { EventListComponent } from './components/event-list/event-list.component';
 import { TicketPurchaseComponent } from './components/ticket-purchase/ticket-purchase.component';
 import { CustomerTicketsComponent } from './components/customer-tickets/customer-tickets.component';
-// import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-// import { ModalModule } from 'ngx-bootstrap/modal';
 import { FormsModule } from '@angular/forms';
 import { CustomerListComponent } from './components/customer-list/customer-list.component';
 import { CustomerService } from './services/customer.service';
@@ -29,9 +27,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    // BsDropdownModule.forRoot(),
-    // ModalModule.forRoot()
+    FormsModule
   ],
   providers: [HttpClientModule, CustomerService],
   bootstrap: [AppComponent]

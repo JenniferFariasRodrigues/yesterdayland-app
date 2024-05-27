@@ -8,7 +8,7 @@ import { Ticket } from '../models/ticket.model';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'https://localhost:5001/api';
+  private apiUrl = 'https://localhost:7019/api';
 
   constructor(private http: HttpClient) { }
 

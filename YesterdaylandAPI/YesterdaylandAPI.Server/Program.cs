@@ -52,12 +52,6 @@ builder.Services.AddCors(options =>
 });
 
 
-// Configure to use different ports
-//builder.WebHost.ConfigureKestrel(options =>
-//{
-//    options.ListenLocalhost(7020, listenOptions => listenOptions.UseHttps());
-//    options.ListenLocalhost(5198);
-//});
 var app = builder.Build();
 
 app.UseDefaultFiles();
@@ -67,8 +61,7 @@ app.UseStaticFiles();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    //  app.UseSwaggerUI();
-    //app.UseSwagger();
+
     //using a swagger version to show the endpoint  
     app.UseSwaggerUI(c =>
     {
@@ -80,10 +73,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 // Apply the CORS policy
-app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+// app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-
-//app.UseCors("AllowAll"); 
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
