@@ -11,7 +11,7 @@ App Challenge using .Net,Angular,SQLServer, Swagger features and frameworks.
 
 ### ----------------------------------------------------------------------------
 
-# Full Stack Software Engineer Technical Assignment
+# Full Stack Software Engineer
 
 ### ----------------------------------------------------------------------------
 
